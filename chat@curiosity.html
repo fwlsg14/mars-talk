@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarsTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="status-bar">
+      <div class="status-bar__column">
+        <span>Offline</span>
+        <i class="fas fa-satellite-dish fa-lg"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>24:37</span>
+      </div>
+      <div class="status-bar__column">
+        <span>458%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+      </div>
+    </section>
+    <header class="alt-header chat-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-chevron-left"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <span>Curiosity</span>
+      </div>
+      <div class="alt-header__column">
+        <button class="background--transparent">
+          <i class="fas fa-search"></i>
+        </button>
+        <button class="background--transparent">
+          <i class="fas fa-hamburger"></i>
+        </button>
+      </div>
+    </header>
+    <main class="chat__main">
+      <div class="chat__timestamp">
+        <span> Sol 2350 </span>
+      </div>
+      <div class="message-left">
+        <img src="img/curiosity.jpg" />
+        <div class="message-row__container">
+          <span class="message__author">Curiosity</span>
+          <div class="message__content">
+            <div class="message__bubble">
+              <p>Sol 2350 - Deimos Eclipse</p>
+              <img src="img/curiosity_sol_2350.gif" />
+            </div>
+            <span class="message__time">13:50</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat__timestamp">
+        <span> Sol 2359 </span>
+      </div>
+      <div class="message-left">
+        <img src="img/curiosity.jpg" />
+        <div class="message-row__container">
+          <span class="message__author">Curiosity</span>
+          <div class="message__content">
+            <div class="message__bubble">
+              <p>Sol 2359 - Phobos Eclipse</p>
+              <img src="img/curiosity_sol_2359.gif" />
+            </div>
+            <span class="message__time">15:59</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat__timestamp">
+        <span> Sol 2847 </span>
+      </div>
+      <div class="message-left">
+        <img src="img/curiosity.jpg" />
+        <div class="message-row__container">
+          <span class="message__author">Curiosity</span>
+          <div class="message__content">
+            <div class="message__bubble">
+              <p>Sol 2847 - Dust Devil on Mount Sharp</p>
+              <img src="img/curiosity_sol_2847.gif" />
+            </div>
+            <span class="message__time">17:47</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat__timestamp">
+        <span> Today </span>
+      </div>
+      <div class="message-right">
+        <div class="message-row__container">
+          <div class="message__content">
+            <div class="message__bubble">
+              <p>Where are you now?</p>
+            </div>
+            <span class="message__time">09:47</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-left">
+        <img src="img/curiosity.jpg" />
+        <div class="message-row__container">
+          <span class="message__author">Curiosity</span>
+          <div class="message__content">
+            <div class="message__bubble">
+              <p>Sol 3049</p>
+              <p>Longitude, Latitude</p>
+              <p>(137.4125, -4.7353)</p>
+            </div>
+            <span class="message__time">10:35</span>
+          </div>
+          <div class="message__content">
+            <div class="message__bubble">
+              <img src="img/curiosity_sol_3049.png" />
+            </div>
+            <span class="message__time">10:37</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form action="" class="chat__input">
+      <div class="chat__input__column">
+        <button class="background--transparent">
+          <i class="far fa-plus-square icon--big"></i>
+        </button>
+      </div>
+      <div class="chat__input__column">
+        <input type="text" placeholder="Write a message..." />
+        <button class="background--transparent">
+          <i class="far fa-smile icon--big"></i>
+        </button>
+        <button class="background--transparent">
+          <i class="fas fa-arrow-up icon--big"></i>
+        </button>
+      </div>
+    </form>
+    <section id="splash-screen">
+      <img src="img/mars_360.jpg" />
+    </section>
+    <section id="no-mobile-screen">
+      <p>Your screen is too big</p>
+      <p>Switch to portrait mode</p>
+      <p>Or</p>
+      <p>Reduce the width to less than 650px</p>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/500d028050.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

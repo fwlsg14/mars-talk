@@ -1,0 +1,16 @@
+.more__me-tab {
+  margin: 0vh var(--horizontal-space);
+}
+.more__weather-tab {
+  margin: 0px var(--horizontal-space);
+  margin-top: 1.5vh;
+  color: var(--light-font-color);
+}
+
+.more__function-tab {
+  margin: 0vh var(--horizontal-space);
+}
+
+.more__suggestions-tab {
+  margin: 0vh var(--horizontal-space);
+}

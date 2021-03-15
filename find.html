@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - MarsTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="status-bar">
+      <div class="status-bar__column">
+        <span>Offline</span>
+        <i class="fas fa-satellite-dish fa-lg"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>24:37</span>
+      </div>
+      <div class="status-bar__column">
+        <span>458%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+      </div>
+    </section>
+    <header class="screen-header">
+      <div class="screen-header__column"><h1>Find</h1></div>
+      <div class="screen-header__column">
+        <button class="background--transparent">
+          <i class="fas fa-search"></i>
+        </button>
+        <a
+          href="setting.html"
+          class="background--transparent screen-header__cog"
+        >
+          <i class="fas fa-cog"></i>
+          <img src="img/notification-dot.png" class="screen-header__cog-dot" />
+        </a>
+      </div>
+    </header>
+    <section class="icons-row">
+      <button class="icons-row__icon background--transparent">
+        <span><i class="fas fa-qrcode icon--big"></i></span>
+        <h4>QR Code</h4>
+      </button>
+      <button class="icons-row__icon background--transparent">
+        <span><i class="fas fa-address-book icon--big"></i></span>
+        <h4>Add by</h4>
+        <h5>Contacts</h5>
+      </button>
+      <button class="icons-row__icon background--transparent">
+        <span id="id-icon">ID</span>
+        <h4>Add by ID</h4>
+      </button>
+      <button class="icons-row__icon background--transparent">
+        <span><i class="far fa-envelope icon--big"></i></span>
+        <h4>Invite</h4>
+      </button>
+    </section>
+    <section class="find-tab">
+      <div class="find-tab__recommended-friends">
+        <div class="divider-bar--light"></div>
+        <div class="friends__fold-tab">
+          <div><span> Recommended Friends </span></div>
+          <div>
+            <span><i class="fas fa-chevron-up"></i></span>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__front">
+            <img class="user-component__img--small" src="img/nasa.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">NASA</h4>
+            </div>
+          </div>
+          <div class="user-component__rear">
+            <p><i class="fas fa-chevron-right"></i></p>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__front">
+            <img class="user-component__img--small" src="img/artemis.png" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Artemis Program</h4>
+            </div>
+          </div>
+          <div class="user-component__rear">
+            <p><i class="fas fa-chevron-right"></i></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="find-tab">
+      <div class="divider-bar--light"></div>
+      <div class="friends__fold-tab">
+        <div><span> Open Chat </span></div>
+        <div>
+          <span><i class="fas fa-chevron-up"></i></span>
+        </div>
+      </div>
+      <div class="find-tab__open-chats">
+        <div class="openchat-component">
+          <div class="openchat-component__front">
+            <h4>Mars' Landmark</h4>
+            <h5>#Olympus-Mons#Cydonia#Arcadia-Planitia</h5>
+            <div class="openchat-component__front__activity">
+              <img
+                class="user-component__img--tiny"
+                src="img/default-user.jpg"
+              />
+              <span>802 members</span
+              ><span class="openchat-component__activity">Active</span>
+            </div>
+          </div>
+          <div class="openchat-component__rear">
+            <img src="img/mars-global-context-mgs.jpg" />
+            <div class="openchat-component__rear__likes">
+              <span><i class="fas fa-heart"></i>326</span>
+            </div>
+          </div>
+        </div>
+        <div class="divider-bar--light"></div>
+        <div class="openchat-component">
+          <div class="openchat-component__front">
+            <h4>Farming potatoes</h4>
+            <h5>#Mark-Watney#Survival-expert#Potatoes</h5>
+            <div class="openchat-component__front__activity">
+              <img
+                class="user-component__img--tiny"
+                src="img/default-user.jpg"
+              />
+              <span>299 members</span
+              ><span class="openchat-component__activity">Active</span>
+            </div>
+          </div>
+          <div class="openchat-component__rear">
+            <img src="img/potato.jpg" />
+            <div class="openchat-component__rear__likes">
+              <span><i class="fas fa-heart"></i>215</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html" class="nav__link"
+            ><i class="far fa-user icon--big"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html" class="nav__link"
+            ><i class="fas fa-comment icon--big"></i
+          ></a>
+          <span class="notification-number">4</span>
+        </li>
+        <li class="nav__btn">
+          <a href="find.html" class="nav__link">
+            <i class="fas fa-search icon--big"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html" class="nav__link"
+            ><i class="fas fa-ellipsis-h icon--big"></i
+          ></a>
+          <img src="img/notification-dot.png" class="notification-dot" />
+        </li>
+      </ul>
+    </nav>
+    <section id="splash-screen">
+      <img src="img/mars_360.jpg" />
+    </section>
+    <section id="no-mobile-screen">
+      <p>Your screen is too big</p>
+      <p>Switch to portrait mode</p>
+      <p>Or</p>
+      <p>Reduce the width to less than 650px</p>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/500d028050.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

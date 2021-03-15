@@ -1,0 +1,18 @@
+#id-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border: 3px solid var(--default-font-color);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.find-tab {
+  margin: 0px var(--horizontal-space);
+  margin-top: 1.5vh;
+  color: var(--light-font-color);
+}
+.find-tab__open-chats {
+  margin-top: 1.5vh;
+}

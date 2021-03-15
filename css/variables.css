@@ -1,0 +1,8 @@
+:root {
+  --main-color: #f8b670;
+  --sub-color: black;
+  --horizontal-space: 5.5vw;
+  --default-font-color: #52474b;
+  --light-font-color: #dd7048;
+  --border-light: 2px solid var(--light-font-color);
+}

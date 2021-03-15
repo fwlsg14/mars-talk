@@ -1,0 +1,32 @@
+#no-mobile-screen {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  visibility: hidden;
+}
+#no-mobile-screen p {
+  color: var(--light-font-color);
+  font-size: 1.5rem;
+  line-height: 5vh;
+}
+@media screen and (min-width: 651px) {
+  body {
+    max-height: 100vh;
+    overflow: hidden;
+  }
+  body * {
+    touch-action: none;
+  }
+  #no-mobile-screen {
+    display: flex;
+    visibility: visible;
+  }
+}

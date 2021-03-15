@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - MarsTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="status-bar">
+      <div class="status-bar__column">
+        <span>Offline</span>
+        <i class="fas fa-satellite-dish fa-lg"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>24:37</span>
+      </div>
+      <div class="status-bar__column">
+        <span>458%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+      </div>
+    </section>
+    <header class="screen-header">
+      <div class="screen-header__column"><h1>Chats</h1></div>
+      <div class="screen-header__column">
+        <button class="background--transparent">
+          <i class="fas fa-search"></i>
+        </button>
+        <button class="background--transparent">
+          <i class="fas fa-comment-medical"></i>
+        </button>
+        <a
+          href="setting.html"
+          class="background--transparent screen-header__cog"
+        >
+          <i class="fas fa-cog"></i>
+          <img src="img/notification-dot.png" class="screen-header__cog-dot" />
+        </a>
+      </div>
+    </header>
+    <section class="chats-tab">
+      <a href="chat@curiosity.html"
+        ><div class="user-component">
+          <div class="user-component__front">
+            <img class="user-component__img--big" src="img/curiosity.jpg" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Curiosity</h4>
+              <h6 class="user-component__subtitle"></h6>
+            </div>
+          </div>
+          <div class="user-component__rear">
+            <p>10:37</p>
+            <span class="user-component__rear__circle-number">2</span>
+          </div>
+        </div></a
+      >
+      <a href="chat@perserverance.html"
+        ><div class="user-component">
+          <div class="user-component__front">
+            <img class="user-component__img--big" src="img/perserverance.jpg" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Perserverance</h4>
+              <h6 class="user-component__subtitle"></h6>
+            </div>
+          </div>
+          <div class="user-component__rear">
+            <p>14:22</p>
+            <span class="user-component__rear__circle-number">2</span>
+          </div>
+        </div></a
+      >
+    </section>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html" class="nav__link"
+            ><i class="far fa-user icon--big"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html" class="nav__link"
+            ><i class="fas fa-comment icon--big"></i
+          ></a>
+          <span class="notification-number">4</span>
+        </li>
+        <li class="nav__btn">
+          <a href="find.html" class="nav__link">
+            <i class="fas fa-search icon--big"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html" class="nav__link"
+            ><i class="fas fa-ellipsis-h icon--big"></i
+          ></a>
+          <img src="img/notification-dot.png" class="notification-dot" />
+        </li>
+      </ul>
+    </nav>
+    <section id="splash-screen">
+      <img src="img/mars_360.jpg" />
+    </section>
+    <section id="no-mobile-screen">
+      <p>Your screen is too big</p>
+      <p>Switch to portrait mode</p>
+      <p>Or</p>
+      <p>Reduce the width to less than 650px</p>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/500d028050.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

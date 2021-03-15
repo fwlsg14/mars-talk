@@ -1,0 +1,33 @@
+:root {
+  font-size: 2vh;
+}
+body {
+  margin-top: 30px;
+  font-family: "Space Mono", monospace;
+  color: var(--default-font-color);
+  background-color: var(--main-color);
+  margin-bottom: 72px;
+  box-sizing: border-box;
+}
+button {
+  border: none;
+  padding: 5px;
+}
+input {
+  border: none;
+}
+button:focus,
+input:focus {
+  outline: none;
+}
+button:hover,
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+i {
+  font-size: 1.5rem;
+}

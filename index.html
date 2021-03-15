@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to MarsTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="status-bar">
+      <div class="status-bar__column">
+        <span>Offline</span>
+        <i class="fas fa-satellite-dish fa-lg"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>24:37</span>
+      </div>
+      <div class="status-bar__column">
+        <span>458%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+      </div>
+    </section>
+    <header class="index__header">
+      <h1>Welcome to MarsTalk</h1>
+      <p>If you have a MarsTalk Account,</p>
+      <p>log in with your email or phone number.</p>
+    </header>
+    <form action="friends.html" method="get" class="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <p>Don't enter your real email or password</p>
+    </form>
+    <section id="splash-screen">
+      <img src="img/mars_360.jpg" />
+    </section>
+    <section id="no-mobile-screen">
+      <p>Your screen is too big</p>
+      <p>Switch to portrait mode</p>
+      <p>Or</p>
+      <p>Reduce the width to less than 650px</p>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/500d028050.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

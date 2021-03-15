@@ -1,0 +1,28 @@
+@keyframes BtnAnimation {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+a i,
+button i,
+#id-icon {
+  animation: BtnAnimation 2s ease-in-out;
+}
+
+.divider-bar--light {
+  margin: 1vh 0px;
+  border-top: var(--border-light);
+}
+.background--transparent {
+  background-color: transparent;
+}
+.icon--big {
+  font-size: 2rem;
+}
+.notification-icon {
+  color: tomato;
+  font-size: 0.9em;
+}

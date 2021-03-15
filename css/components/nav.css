@@ -1,0 +1,70 @@
+@keyframes NotificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+@keyframes AppearNavBtn {
+  0% {
+    transform: translateY(5vh);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+.nav {
+  width: 100%;
+  height: 70px;
+  background-color: var(--main-color);
+  border-top: var(--border-light);
+  position: fixed;
+  bottom: 0px;
+}
+.nav__list {
+  padding: 20px 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__btn {
+  position: relative;
+  transform: translateY(5vh);
+  opacity: 0;
+  animation: AppearNavBtn 0.8s ease-in-out forwards;
+}
+.nav__btn:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.nav__btn:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.nav__btn:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.notification-number {
+  position: absolute;
+  left: 4.5vw;
+  bottom: 20px;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: var(--main-color);
+  animation: NotificationAnimation 3s ease-in-out infinite;
+}
+.notification-dot {
+  position: absolute;
+  bottom: 20px;
+  left: 7vw;
+}

@@ -1,0 +1,28 @@
+.icons-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 0vw;
+}
+.icons-row * {
+  color: var(--default-font-color);
+}
+.icons-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  width: 25%;
+}
+.icons-row__icon h4 {
+  margin-top: 2.5vh;
+}
+
+.icons-row--weather {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 0vw;
+}
+.icons-row--weather * {
+  color: var(--default-font-color);
+}

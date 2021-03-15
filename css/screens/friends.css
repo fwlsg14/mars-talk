@@ -1,0 +1,25 @@
+.friends-display-option {
+  padding: 1.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-font-color);
+}
+.friends-display-option i {
+  margin: 0px 2vw;
+  font-size: 1rem;
+}
+.friends__me-tab {
+  margin: 2vh var(--horizontal-space);
+}
+.friends__friends-tab {
+  padding: 0px var(--horizontal-space);
+}
+.friends__fold-tab {
+  padding-right: 1vw;
+  display: flex;
+  justify-content: space-between;
+  color: var(--light-font-color);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
